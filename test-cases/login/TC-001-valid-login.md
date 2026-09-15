@@ -5,7 +5,10 @@ priority: high
 module: login
 automated: false
 tags: [smoke, auth]
+requirements: [REQ-001]
 ---
+
+**Requirement:** [REQ-001 - User login](../../requirements/REQ-001-user-login.md)
 
 **Preconditions:** User has an active account with a known email and password.
 
