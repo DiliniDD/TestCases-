@@ -5,7 +5,10 @@ priority: medium
 module: checkout
 automated: false
 tags: [checkout, discounts]
+requirements: [REQ-010]
 ---
+
+**Requirement:** [REQ-010 - Checkout discounts](../../requirements/REQ-010-checkout-discounts.md)
 
 **Preconditions:** Cart contains at least one eligible item. A valid, unused coupon code exists.
 
