@@ -20,6 +20,11 @@ Test cases are grouped into folders by feature or module, e.g. login, checkout. 
 - module: feature area the test case belongs to
 - automated: true or false
 - tags: free-form labels for filtering, e.g. smoke, regression
+- requirements: the requirement IDs this test case verifies, see ../requirements/README.md
+
+## Linking to requirements
+
+Every test case should link back to the requirement it verifies, both in the requirements frontmatter field and as a Requirement line in the body. See ../requirements/README.md for how requirement documents in turn link back to their test cases.
 
 ## Tracking execution
 
