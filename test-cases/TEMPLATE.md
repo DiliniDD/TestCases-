@@ -5,7 +5,10 @@ priority: medium
 module: module-name
 automated: false
 tags: []
+requirements: []
 ---
+
+**Requirement:** Link to the requirement this test case verifies, e.g. [REQ-000](../../requirements/REQ-000-example.md)
 
 **Preconditions:** Describe any state the system must be in before running this test.
 
